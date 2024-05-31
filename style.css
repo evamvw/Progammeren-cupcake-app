@@ -4,29 +4,33 @@
    
 }
 
-.startscherm button {
-    position: absolute;
+
+
+a :hover {
+color: lightpink;
+}
+
+
+
+a {
+    text-decoration: none;
     color: white;
+    position: absolute;
     font-size: 2em;
     background-color: palevioletred;
     padding: 1em;
     border-radius: 3em;
     z-index: 2;
     margin: 11em 17em;
-    
+    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     box-shadow: 2px 2px 15px black;
     border: none;
-
-      /* top: 30%; */
-      /* align-items: center; */
-    /* margin-left: 16.5em;
-    margin-top: 6em; */
 }
 
-.startscherm button :hover {
-    background-color: red;
-}
+#startButton  :hover {
+    background-color: rgb(230, 142, 185);
+    }
 
 .startscherm h1 {
    z-index: 3;
@@ -34,7 +38,7 @@
    margin-top: 1em;
    margin-left: 11em;
    font-size: 3em;
-   color: white;
+   color: rgb(255, 255, 255);
    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
@@ -45,6 +49,7 @@
    font-size: larger;
    color: white;
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   text-align: center;
 }
 
 img {
@@ -85,24 +90,23 @@ width: 10em;
     flex-direction: column;
 } */
 
+
+
 .instructions {
     position: absolute;
-    z-index: 2;
-    color: white;
-    left: 43%;
-    top: 3%;
+    width: 100vw;
     text-align: center;
-    align-items: center;
+    z-index: 2;
+    color: rgb(17, 134, 130);
+    top: 3%;
     font-size:xx-large;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    align-self: center;
     
 }
 
 .timer {
     z-index: 2;
-    position: absolute;
-    top: 15%;
-    left: 30%;
     font-size: x-large;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: palevioletred;
@@ -111,6 +115,7 @@ width: 10em;
 
 
 .geplaatste-ingredienten img {
+    z-index: 3;
     width: 37em;
     left: 29.5em;
     top: 11em;

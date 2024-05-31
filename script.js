@@ -1,95 +1,69 @@
 console.log("CupcakeCo");
 
+let h1 = document.querySelector("h1")
 let buttonCreme = document.querySelector("#buttonCreme")
-buttonCreme.addEventListener("click", klik);
 let cremeImage = document.querySelector("#creme");
 
-function klik() {
-        cremeImage.hidden = !cremeImage.hidden;
-}
-
-let h1 = document.querySelector(".instructions")
-buttonCreme.addEventListener("click", kliktekst1);
-
-function kliktekst1(){
-    h1.textContent = "Add sparkles!"
-}
-
-
-
+buttonCreme.addEventListener("click", addCreme);
 
 
 let buttonSparkles = document.querySelector("#buttonSparkles")
-buttonSparkles.addEventListener("click", klikSparkles);
 let sparklesImage = document.querySelector("#sparkles");
 
-
-function klikSparkles() {
-        sparklesImage.hidden = !sparklesImage.hidden
-}
-
-buttonSparkles.addEventListener("click", kliktekst2);
-
-function kliktekst2(){
-    h1.textContent = "Add the orange!"
-}
+buttonSparkles.addEventListener("click", addSparkles);
 
 
-
-
-
-let buttonOrange = document.querySelector("#buttonOrange")
-buttonOrange.addEventListener("click", klikOrange);
 let orangeImage = document.querySelector("#orange");
+let buttonOrange = document.querySelector("#buttonOrange")
 
-
-function klikOrange() {
-    orangeImage.hidden = !orangeImage.hidden
-}
-
-buttonOrange.addEventListener("click", kliktekst3);
-
-function kliktekst3(){
-    h1.textContent = "Add the beer!"
-    
-}
-
-
-
+buttonOrange.addEventListener("click", addOrange );
 
 
 let buttonBeer = document.querySelector("#buttonBeer")
-buttonBeer.addEventListener("click", klikBeer);
 let beerImage = document.querySelector("#beer");
 
-function klikBeer() {
-    beerImage.hidden = !beerImage.hidden
-}
 
-buttonBeer.addEventListener("click", kliktekst4);
-
-function kliktekst4(){
-    h1.textContent = "Add the umberella!"
-    
-}
+buttonBeer.addEventListener("click", addBeer);
 
 
-
-
-
-let buttonParaplu = document.querySelector("#buttonParaplu")
-buttonParaplu.addEventListener("click", klikParaplu);
 let parapluImage = document.querySelector("#paraplu")
+let buttonParaplu = document.querySelector("#buttonParaplu")
 
-function klikParaplu() {
-    parapluImage.hidden = !parapluImage.hidden
+buttonParaplu.addEventListener("click", addParaplu);
+
+
+
+
+
+function addCreme() {
+        cremeImage.hidden = !cremeImage.hidden;
+        h1.textContent = "Add sparkles!"
 }
 
-buttonParaplu.addEventListener("click", kliktekst5);
 
-function kliktekst5(){
+function addSparkles() {
+        sparklesImage.hidden = !sparklesImage.hidden
+        h1.textContent = "Add the orange!"
+}
+
+
+function addOrange() {
+    orangeImage.hidden = !orangeImage.hidden
+    h1.textContent = "Add the beer!"
+}
+
+
+
+function addBeer() {
+    beerImage.hidden = !beerImage.hidden
+    h1.textContent = "Add the umberella!"
+}
+
+
+
+function addParaplu() {
+    parapluImage.hidden = !parapluImage.hidden
     h1.textContent = "Wow that's a beautiful cupcake!"
-
 }
 
 
