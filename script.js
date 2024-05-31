@@ -32,6 +32,10 @@ let buttonParaplu = document.querySelector("#buttonParaplu")
 buttonParaplu.addEventListener("click", addParaplu);
 
 
+let h2 = document.querySelector (".timer")
+let cupcakeCompleet = false 
+
+buttonParaplu.addEventListener("click", eindKlik);
 
 
 
@@ -68,16 +72,15 @@ function addParaplu() {
 
 
 
-buttonParaplu.addEventListener("click", eindKlik);
-let h2 = document.querySelector (".timer")
 
-let cupcakeCompleet = false 
+setTimeout(eindeSpel, 10000)
+
 
 function eindKlik() { 
     cupcakeCompleet = true
+    console.log("compleet")
 }
 
-setTimeout(eindeSpel, 10000)
 
 function eindeSpel() {
     if(cupcakeCompleet){
@@ -90,29 +93,3 @@ function eindeSpel() {
 }
 
 
-
-// let secondsPassed = 0 
-
-// setInterval(countSeconds, 10)
-
-// function countSeconds () {
-//     secondsPassed -= 1
-// }
-
-// if (secondsPassed<= 0) { 
-//     h2.textContent = "you lost"
-// }
-
-// setTimeout(eindeSpel, 10000) 
-
-// let cupcakecompleet = true 
-
-// functioneindespel 
-
-
-// else (seconds) { 
-
-// }
-    
-
-// }

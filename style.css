@@ -11,7 +11,6 @@ color: lightpink;
 }
 
 
-
 a {
     text-decoration: none;
     color: white;
@@ -46,7 +45,7 @@ a {
    z-index: 3;
    position: fixed;
    margin: 11em 28em;
-   font-size: larger;
+   font-size: large;
    color: white;
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
    text-align: center;
@@ -64,31 +63,12 @@ width: 10em;
 
 
 
-
-
-
-
 .bak-img{
     width: 16em;
     margin-left: 80.5em;
     margin-top: 14.5em;
     z-index: 3;
 }
-
-/* div {
-    display: flex;
-    text-align: center;
-   
-} */
-
-
-/* .ingredients ul{
-    size: 1em;
-    margin-left: 4em;
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-} */
 
 
 
@@ -102,7 +82,6 @@ width: 10em;
     font-size:xx-large;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     align-self: center;
-    
 }
 
 .timer {
@@ -111,7 +90,6 @@ width: 10em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: palevioletred;
 }
-
 
 
 .geplaatste-ingredienten img {
@@ -157,22 +135,4 @@ width: 10em;
     top: 11em;
 }
 
-
-
-
-/* 
-/* .button {
-    position: absolute;
-    color: white;
-    font-size: 2em;
-    top: 20%;
-    background-color: pink;
-    padding: 1em;
-    border-radius: 3em;
-    border-color: palevioletred;
-    z-index: 2;
-    align-items: center;
-    margin-left: 16.5em;
-    margin-top: 5em;
-} */ 
 
