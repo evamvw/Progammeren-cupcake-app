@@ -89,7 +89,6 @@ function eindeSpel() {
     } else {
         h2.textContent = "Too bad, you lost...."
     }
-
 }
 
 

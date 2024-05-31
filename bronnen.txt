@@ -2,9 +2,10 @@ bronnenlijst:
 
 - (Andrea's zus) https://stackoverflow.com/questions/67497327/how-can-i-add-an-image-to-javascript-after-a-button-click 
 
-GEBRUIKT VOOR: de hidden functie bij het klikken van button. 
+GEBRUIKT VOOR: de hidden functie bij het klikken van de buttons. 
 
 
 - https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.shutterstock.com%2Fsearch%2Fcartoon-wood-grain&psig=AOvVaw2nGhmnprGllgCOZCxPt5dK&ust=1716554672425000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCLDv683mo4YDFQAAAAAdAAAAABAE
+- https://www.google.com/search?q=wood%20illustration%20table&hl=nl&tbs=rimg:CVj9SATm7tXiYTRBQfscMlT1sgIAwAIA2AIA4AIA&udm=2&uds=ADvngMg6Q0mwSNoULKN8tZh6vlSyTpTK5inzZAUgd6JsQ1OV4Scs27FSbZp7GRanKKwWi6Qw56kc&cs=1&rlz=1C5CHFA_enNL1082NL1083&sa=X&ved=0CBsQuIIBahcKEwi4yavMg7iGAxUAAAAAHQAAAAAQDg&biw=1512&bih=824&dpr=2#vhid=vMGwNEvcmzfdHM&vssid=mosaic
 
 GEBRUIKT VOOR: De illustratie van de tafel
